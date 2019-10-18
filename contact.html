@@ -4,6 +4,7 @@
 		<title>Cleaner World</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<header>
@@ -26,21 +27,32 @@
 		<main>
 			<h2 id="title_Pages">Nous contacter</h2>
 			<!-- Début form -->
-			<form id="form_contact" action="action" method="post">
-				<div>
-					<label for="name">Nom :</label>
-					<input type="text" id="name" name="user_name">
-				</div>
-				<div>
-					<label for="mail">E-mail :</label>
-					<input type="email" id="mail" name="user_mail">
-				</div>
-				<div>
-					<label for="msg">Message :</label>
-					<textarea id="msg" name="user_message"></textarea>
-				</div>
-				<button type="submit">Envoyer le message</button>
-			</form>
+			<!-- Bouton modal -->
+			<button type= "button" data-toggle= "modal" data-target= "#exampleModalCenter" ><i class="fa fa-pagelines" aria-hidden="true"></i>
+ </button>
+ <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <div class="modal-dialog modal-notify modal-warning" role="document">
+	 <!--Content-->
+	 <div class="modal-content">
+	 <!--Header-->
+	 <div class="modal-header text-center"> <h4 class="modal-title white-text w-100 font-weight-bold py-2">Subscribe</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" class="white-text">&times;</span> </button> </div>
+	 <!--Body-->
+	 <div class="modal-body"> <div class="md-form mb-5"> <i class="fas fa-user prefix grey-text"></i>
+		 <input type="text" id="form3" class="form-control validate">
+		 <label data-error="wrong" data-success="right" for="form3">Your name</label>
+	 </div> <div class="md-form"> <i class="fas fa-envelope prefix grey-text"></i>
+		 <input type="email" id="form2" class="form-control validate">
+		 <label data-error="wrong" data-success="right" for="form2">Your email</label>
+	 </div>
+ </div>
+ <!--Footer-->
+ <div class="modal-footer justify-content-center">
+	 <a type="button" class="btn btn-outline-warning waves-effect">Envoyer le message
+		 <i class="fa fa-pagelines" aria-hidden="true"></i>
+	</a>
+</div>
+</div> <!--/.Content-->
+	 </div>
+ </div>
 			<!-- Fin form -->
 		</main>
 		<footer>
