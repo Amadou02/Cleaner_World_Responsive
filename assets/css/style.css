@@ -49,10 +49,8 @@ nav {
 }
 nav li
 {
-	display: inline-block;
-	line-height: 40px;
 	text-transform: uppercase;
-	margin-right: 50px;
+	margin-bottom: 5%;
 }
 nav a
 {
