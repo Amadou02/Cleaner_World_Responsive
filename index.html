@@ -35,8 +35,7 @@
 				<h1>Cleaner World</h1>
 			</header>
 			<div class="navbar navbar-expand-md nav-justified sticky-top">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<button class="navbar-toggler" type="button" name="button"></button>
 					<a class="nav-link nav-item text-white"href="index.html">Accueil</a>
 					<a class="nav-link nav-item text-white"href="events.html">Evenements</a>
 					<a class="nav-link nav-item text-white"href="actus.html">Actus</a>
@@ -45,20 +44,26 @@
 			</div>
 			<main>
 				<div id="bloc_Home">
-					<h2 id="title_Pages">Clean the world, make it better</h2>
+					<h2 id="title_Pages" class="mb-5 mt-5">Clean the world, make it better</h2>
 					<!-- Début Bloc large 1 -->
-					<div class="bloc_Large">
-						<div id="img_Large_1_index"></div>
-						<div class="txt_Large">
-							<h3>Mission</h3>
-							<p>
-								 Contribuer à une métamorphose de nos sociétés par le changement des comportements individuels et collectifs. Cette métamorphose a pour but d’assurer la préservation du patrimoine naturel commun, le partage équitable des ressources, la solidarité et le respect de la diversité sous toutes ses formes.Pour y parvenir :
-							</p>
-							<ul>
-								<li>La Fondation s’appuie sur l’information scientifique la plus complète et objective possible concernant, notamment, l’état écologique de notre planète.</li>
-								<li>Elle se base sur la pédagogie pour faire le lien entre les connaissances et l’action auprès de tous les publics. Elle participe, ainsi, à la prise de conscience de l’interdépendance entre les humains et l’ensemble du vivant et de la nécessité d’imaginer des solutions communes.</li>
-								<li>Elle participe au débat public en proposant et en portant des solutions à mettre en œuvre pour transformer nos sociétés et en s’impliquant aux côtés des acteurs du changement.</li>
-							</ul>
+					<div class="container d-md-flex flex-row">
+						<div class="card mb-1">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img src="assets/img/marcheClimat.jpg" class="card-img" alt="...">
+								</div>
+								<div class="col-md-6">
+									<div class="card-body">
+										<h3 class="card-title">Mission</h3>
+										<p class="card-text">Contribuer à une métamorphose de nos sociétés par le changement des comportements individuels et collectifs. Cette métamorphose a pour but d’assurer la préservation du patrimoine naturel commun, le partage équitable des ressources, la solidarité et le respect de la diversité sous toutes ses formes.Pour y parvenir :</p>
+										<ul>
+											<li>La Fondation s’appuie sur l’information scientifique la plus complète et objective possible concernant, notamment, l’état écologique de notre planète.</li>
+											<li>Elle se base sur la pédagogie pour faire le lien entre les connaissances et l’action auprès de tous les publics. Elle participe, ainsi, à la prise de conscience de l’interdépendance entre les humains et l’ensemble du vivant et de la nécessité d’imaginer des solutions communes.</li>
+											<li>Elle participe au débat public en proposant et en portant des solutions à mettre en œuvre pour transformer nos sociétés et en s’impliquant aux côtés des acteurs du changement.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<!-- Fin bloc large 1 -->
@@ -93,24 +98,28 @@
 					</div>
 					<!-- Fin bloc small 3 -->
 					<!-- Début bloc large 2 -->
-					<div class="bloc_Large">
-						<div id="img_Large_2_index"></div>
-						<div class="txt_Large">
-							<h3>Valeurs</h3>
-							<p>
-								Les décisions de la Fondation, ses comportements et ses actions sont guidés par les valeurs suivantes :
-							</p>
-							<ul>
-								<li>Créativité : Face à la complexité de l’enjeu, nous savons que les solutions se trouvent dans la production d’idées et de moyens innovants.</li>
-								<li>Dialogue : Parce que nous ne pouvons agir seuls, nous plaçons l’écoute, le respect, l’échange, la coopération et la proposition au cœur de nos actions.</li>
-								<li>Sobriété : Dans un monde où les espèces et les ressources naturelles se raréfient, où les inégalités se creusent, nous souhaitons distinguer l’essentiel du superflu.</li>
-								<li>Solidarité : Parce que les destins de la Nature et de l’Homme sont interdépendants, nous avons le devoir d’œuvrer pour la préservation de l’ensemble du vivant, aujourd’hui et pour demain.</li>
-								<li>Transparence : Nous nous engageons à rendre l’ensemble des informations sur la Fondation accessibles pour tous.</li>
-							</ul>
-						</div>
-					</div>
-					<!-- Fin bloc large 2 -->
 				</div>
+				<div class="container d-md-flex flex-row mt-5 mb-5">
+					<div class="card mb-1">
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img src="assets/img/no_pesticides.png" class="card-img" alt="...">
+							</div>
+							<div class="col-md-6">
+								<div class="card-body">
+									<h3 class="card-title">Valeurs</h3>
+									<p class="card-text">Les décisions de la Fondation, ses comportements et ses actions sont guidés par les valeurs suivantes :
+								</p>
+								<ul>
+									<li>Créativité : Face à la complexité de l’enjeu, nous savons que les solutions se trouvent dans la production d’idées et de moyens innovants.</li>
+									<li>Dialogue : Parce que nous ne pouvons agir seuls, nous plaçons l’écoute, le respect, l’échange, la coopération et la proposition au cœur de nos actions.</li>
+									<li>Sobriété : Dans un monde où les espèces et les ressources naturelles se raréfient, où les inégalités se creusent, nous souhaitons distinguer l’essentiel du superflu.</li>
+									<li>Solidarité : Parce que les destins de la Nature et de l’Homme sont interdépendants, nous avons le devoir d’œuvrer pour la préservation de l’ensemble du vivant, aujourd’hui et pour demain.</li>
+									<li>Transparence : Nous nous engageons à rendre l’ensemble des informations sur la Fondation accessibles pour tous.</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Fin bloc large 2 -->
 			</main>
 			<footer>
 				<div id="container">
@@ -167,5 +176,8 @@
 					</div>
 				</div>
 			</footer>
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		</body>
 	</html>
