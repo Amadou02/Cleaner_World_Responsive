@@ -35,9 +35,16 @@ h1
 	margin: 0 !important;
 	padding: 0 !important;
 }
-.navbar
+nav
 {
 	background-color: #AF8E4E;
+	width: 100%;
+	height: auto;
+	position: sticky;
+	top: 0;
+	text-align:center;
+	margin-top: -21px;
+	z-index: 998;
 }
 #logo_cleanerworld
 {
@@ -330,9 +337,6 @@ font-size: 17px;
 	margin: auto;
 	margin-top: 80px;
 	text-align: center;
-	width: 400px;
-	max-width: 100%;
-	padding: 20px;
 	background-color:#488e48;
 	border-radius: 5px;
 }
